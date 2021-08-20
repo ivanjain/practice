@@ -1,0 +1,93 @@
+
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body
+{
+    background-image: url("images/qwert.jpg");
+     width: 900px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+    
+}
+#index{
+    background-image: none;
+    background-color: rgb(2 0 22);
+}
+nav
+{
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:bolder;
+    margin: auto;
+    font-style: oblique;
+    font-size: medium;
+    padding:8px;
+    margin: 8px;
+}
+
+
+    
+}
+#reg{
+    padding: 2px;
+    margin: 2px;
+}
+.registration {
+    background-color: #00adff2e;
+    background-attachment: scroll;
+    width: 510px;
+    height: 300px;
+
+    margin: 14px 24px;
+    padding: 27px 24px;
+    font-family: 'Roboto', sans-serif;
+}
+label {
+    display: inline-block;
+    text-align: left;
+    width: 90px;
+
+}
+#submit {
+    margin: 2px 2px;
+    padding: 2px 2px;
+}
+#indexarticle{
+    background-image: url("./images/aside.jpg" );
+    width: 458px;
+    height: 375px;
+   
+    border-radius: 12px;
+    padding: 2px 2px;
+    margin: 2px 2px;
+}
+h1{
+    background-color: transparent;
+    padding-left: 400px;
+    color: tomato;
+    font-size: 70px;
+    height: 100px;
+    
+}
+p{
+    margin: 2px 2px;
+    padding: 2px 2px;
+    border: 2px solid red;
+    border-radius: 12px;
+    float: left;
+    color: white;
+}
+#indexaside{
+
+    width: 300px;
+    height: 230px;
+    border: 2px solid green;
+    border-radius: 12px;
+    padding: 2px 2px;
+    margin: 2px 2px;

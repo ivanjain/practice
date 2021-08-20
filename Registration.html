@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Registration</title>
+    <style>
+       
+        
+    </style>
+</head>
+
+<body>
+    <nav>
+
+        <a href="Index.html">Home</a>
+        <a href="courses.html">Courses</a>
+        <a href="classtime.html">Class Timings</a>
+        <a href="fees.html">Fee Structure</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="login.html">Login </a>
+
+    </nav>
+    <section>
+        <article>
+            <div id="reg" class="registration">
+                <h2> Registration form</h2>
+                <div id="name">
+                    <label>First name</label><input type="text" name="fname" id="fname" />
+                </div>
+                <div id="lname">
+                    <label>Last name</label><input type="text" name="lname" id="lname" />
+                </div>
+                <div id="phn">
+                    <label>Phone No.</label><input type="number" name="Phone" id="phone" />
+                </div>
+                <div id="sex">
+                    <label>Sex - </label>
+                    <input type="radio" name="sex" value="male" id="male" />male
+                    <input type="radio" name="sex" value="female" id="female" />female
+                </div>
+                <div id="email">
+                    <label>Email</label><input type="email" name="email" id="email" />
+                </div>
+                <div id="pass">
+                    <label>Password</label><input type="password" name="password" id="password">
+                </div>
+                <div id="pic">
+                    <form method="POST" action="home.html" enctype="multipart/form-data">
+                        upload profile picture
+                        <input type="file" name="photo" id="photo">
+                    </form>
+                    <div id="interset">
+                        <label>Interset</label><select name="Interset">
+                            <option value="coding">Coding</option>
+                            <option value="Planing">Planing</option>
+                            <option value="Infrastructure">Infrastructure</option>
+                            <option value="Cloud">Cloud</option>
+                        </select>
+                    </div>
+                    <div id="hobbies"><label>Hobbies</label>
+                        <input type="checkbox" name="hobbies" value="Reading books" checked>Reading Books
+                        <input type="checkbox" name="hobbies" value="Listening songs">Listening Songs
+                        <input type="checkbox" name="hobbies" value="video games">Video games
+                    </div>
+                    <div id="submit">
+                        <input type="button" name="submit" value="submit" id="submit">
+                    </div>
+
+                </div>
+
+        </article>
+        <aside>
+
+        </aside>
+    </section>
+    <footer>
+        <h4>@copyrigt 2021sisa limited</h4>
+    </footer>
+</body>
+
+</html>
